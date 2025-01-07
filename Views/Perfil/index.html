@@ -1139,61 +1139,7 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
         <!--chart js-->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.min.js"></script>
-        <script>
-            let chart = new Chart(myChart, {
-                type:'bar',
-                data: {
-                    labels: ['ORC','OGVG', 'CPSOG', 'OPVG', 'CPSOP', 'ORFT', 'ORPS'],
-                    datasets: [{
-                        data: [5,25,12,20,15,75,35],
-                        backgroundColor: ['#a9c3d0', '#6da6b9','#6f7075', '#326b7e', '#8FC1A9', '#7CAA98', '#212529'],
-                        borderWidth: 2,
-                        borderColor: '#fff'
-                    }]
-                },
-                options : {
-                    legend:{
-                        display: false
-                    },
-                    tooltips: {
-                        enabled: true
-                    }
-                }
-            });
-
-            let chartline = new Chart(myChartline,{
-                type: 'line',
-                data:{
-                    labels: ['D1', 'D2', 'D3', 'D4', 'D5'],
-                    datasets: [{
-                        label: 'Progreso',
-                        data: [64,36,20,50,15],
-                        backgroundColor: '#8FC1A9',
-                        borderColor: '#fff',
-                        hoverBorderWidth:2,
-                        hoverBorderColor:'#6f7075'
-                    }]
-                },
-                //opciones
-            });
-
-            let chartdona = new Chart(myChartdona,{
-                type: 'doughnut',
-                data:{
-                    labels: ['Dato1', 'Dato2', 'Dato3', 'Dato4', 'Dato5'],
-                    datasets: [{
-                        label: 'Progreso',
-                        data: [64,36,20,50,15],
-                        backgroundColor: ['#a9c3d0', '#6da6b9','#6f7075', '#326b7e', '#8FC1A9', '#7CAA98', '#212529'],
-                        borderColor: '#fff',
-                        hoverBorderWidth:2,
-                        hoverBorderColor:'#6f7075'
-                    }]
-                },
-                //opciones
-            });
-
-        </script>
+        
         <!--SweetAlert2-->
         <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
