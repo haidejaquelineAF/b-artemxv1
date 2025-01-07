@@ -316,7 +316,7 @@
             if(correo_lgn.value =="" || pass_lgn.value==""){
                 alert("Favor de completar todos los campos");
             }else{
-                if(correo_lgn.value == "haide.aguilar14@gmail.com" && pass_lgn.value=="123Haide"){
+                if((correo_lgn.value == "haide.aguilar14@gmail.com" && pass_lgn.value=="123Haide") || (correo_lgn.value=="gsalmont@prodigy.net.mx" && pass_lgn.value=="ZacZac2141")){
                     //Entra a la página de inicio como administrador
                     window.location = "https://haidejaquelineaf.github.io/b-artemxv1/Views/Inicio/";
                 }else{
